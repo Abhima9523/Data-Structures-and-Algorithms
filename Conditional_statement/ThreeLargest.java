@@ -1,0 +1,25 @@
+package Conditional_statement;
+
+import java.util.Scanner;
+
+public class ThreeLargest
+{
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter your First Number");
+        int a=sc.nextInt();
+        System.out.println("Enter your Second Number");
+        int b=sc.nextInt();
+        System.out.println("Enter your Third Number");
+        int c=sc.nextInt();
+        if(a>b && a>c)
+        {
+            System.out.println("largest :"+a);
+        } else if (b>a && b>c) {
+            System.out.println("largest :"+b);
+        }
+        else {
+            System.out.println("largest :"+c);
+        }
+    }
+}
