@@ -38,6 +38,6 @@ public class SubArrays
     }
     public static void main(String[] args) {
         int []arr=ArrayInput.intput();
-        kadens(arr);
+        printSubarrays(arr);
     }
 }
